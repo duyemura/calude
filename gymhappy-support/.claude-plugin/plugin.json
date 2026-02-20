@@ -1,0 +1,9 @@
+{
+  "name": "gymhappy-support",
+  "version": "1.0.1",
+  "description": "GymHappy customer support tools for PushPress agents",
+  "author": {
+    "name": "PushPress"
+  },
+  "keywords": ["gymhappy", "support", "reviews", "gym"]
+}

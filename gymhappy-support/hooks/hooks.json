@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/hooks/setup-check.sh && cat ${CLAUDE_PLUGIN_ROOT}/context/system-prompt.md",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

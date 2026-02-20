@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "gymhappy-support": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://app.gymhappy.co/mcp/support",
+        "--header",
+        "Authorization: Bearer ${GYMHAPPY_MCP_TOKEN}"
+      ],
+      "env": {
+        "GYMHAPPY_MCP_TOKEN": "${GYMHAPPY_MCP_TOKEN}"
+      }
+    }
+  }
+}
